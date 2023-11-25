@@ -1,0 +1,46 @@
+Entrada de Usuário:
+
+O sistema deve permitir que os usuários insiram informações, incluindo "Nome", "Preço" e "Tipo".
+Validação de Dados:
+
+O sistema deve validar a entrada do usuário para garantir que os campos obrigatórios (Nome, Preço, Tipo) não estejam vazios.
+Interação com o Modal:
+
+O sistema deve exibir um modal para entrada de dados, permitindo que os usuários adicionem novos itens ou editem os existentes.
+Edição de Itens:
+
+Os usuários devem poder editar itens existentes clicando em um botão "Editar" associado a cada item.
+Exclusão de Itens:
+
+Os usuários devem ter a capacidade de excluir itens clicando em um botão "Excluir" associado a cada item.
+Armazenamento Local:
+
+O sistema deve utilizar armazenamento local para persistir dados, garantindo que itens adicionados, editados ou excluídos sejam salvos entre sessões.
+Carregamento de Dados:
+
+O sistema deve carregar itens existentes do armazenamento local quando a aplicação é iniciada.
+Requisitos Não-funcionais:
+Usabilidade:
+
+A interface do usuário deve ser intuitiva e fácil de usar, proporcionando uma experiência sem problemas para adicionar, editar e excluir itens.
+Desempenho:
+
+A aplicação deve lidar com operações de dados de forma eficiente, mesmo com um grande número de itens.
+Segurança:
+
+A aplicação deve implementar uma validação adequada de dados para evitar entradas maliciosas.
+Compatibilidade:
+
+O sistema deve ser compatível com os navegadores web populares para garantir um amplo alcance de usuários.
+Manutenibilidade:
+
+O código-fonte deve ser bem organizado e documentado, facilitando futuras manutenções e atualizações.
+Escalabilidade:
+
+A aplicação deve ser projetada para acomodar futuras funcionalidades potenciais ou mudanças nos requisitos.
+Histórias de Usuário:
+Como usuário, eu quero ser capaz de adicionar um novo item com um nome, preço e tipo.
+Como usuário, eu quero que o sistema me avise se eu tentar salvar um item com informações ausentes.
+Como usuário, eu quero editar um item existente clicando no botão "Editar".
+Como usuário, eu quero excluir um item clicando no botão "Excluir".
+Como usuário, eu quero que a aplicação lembre os itens que eu adicionei, mesmo se eu fechar e reabrir.
